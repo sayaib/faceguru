@@ -1,0 +1,248 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.otherPages a:hover{
+  color: white;
+  text-decoration: none;
+}
+.copid {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 40px;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 0 0 6px 6px;
+  display: none;
+}
+
+/* ****************************************** Header Section ****************************** */
+.logo {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  color: #f9fcfb;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+}
+
+.main {
+  background-color: #f9fcfb;
+  display: flex;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix+.container-fluid {
+  padding-top: 70px;
+}
+
+.search {
+  margin: auto;
+  width: 80%;
+}
+
+.input {
+  width: 70%;
+  float: left;
+  position: relative;
+}
+
+.input {
+  width: 75%;
+  outline: 0;
+  height: 40px;
+  text-align: center;
+  border: none;
+  padding: 9.5px;
+  border: 0;
+  font-size: 15px;
+  display: block;
+  border-radius: 3px 0 0 3px;
+  background: #ffff;
+  -webkit-box-shadow: inset 1px 1px 3px rgba(200, 200, 200, 0.7);
+  box-shadow: inset 1px 1px 3px rgba(200, 200, 200, 0.7);
+}
+
+.copy {
+  color: #fff;
+  padding: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  background: #00ab4c;
+  font-size: 10px;
+  border-color: #00ab4c;
+  border-radius: 0;
+  float: right;
+  font-weight: 700;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.copy:hover,
+.copy:active {
+  background: #019442;
+}
+
+.sharethis{
+text-transform: uppercase;
+color: #393e46;
+}
+/* *************************************** Faces Body ******************************* */
+.facedetails {
+  padding: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  transition: 0.2s;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.21);
+}
+
+.facedetails,
+.random-face span {
+  transition: all 0.2s ease-in-out;
+}
+
+.facedetails,
+.faces,
+.latestfaces,
+.faces {
+  text-align: center;
+  margin: 30px 80px;
+}
+
+.facedetails {
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  margin: 4px;
+  background: #fff;
+}
+
+.facedetails:hover {
+  color: blue;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid blue;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+/* ********************************* Others Pages ********************************* */
+.otherPages a:hover {
+  opacity: 0.8;
+}
+
+.facedetails:hover p {
+  display: block;
+}
+
+.otherPages {
+  padding:5rem;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.otherPages a {
+  background: #00ab4b;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  padding: 7px 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* *********************************** External Links ******************************** */
+.extlink {
+  background-color: #000;
+  padding: 10px 20px;
+  text-align: center;
+  color: #555555;
+}
+
+.external_link {
+  margin: 10px 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.external_link a {
+  color: #555555;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.external_link a:hover {
+  text-decoration: none;
+  background-color: #00ab4b;
+  color: #555555;
+}
+
+/* ************************************ Footer section ******************************* */
+.about_page {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.img1 {
+  width: 75%;
+}
+.img2{
+  padding-left: 150px;
+  width: 75%;
+}
+
+.info {
+  margin: 35px auto;
+  width: 80%;
+}
+.info h1{
+  font-weight: 600;
+}
+.info h2{
+  font-weight: 600;
+  padding: 30px 5px;
+}
+.info h3{
+  font-weight: 600;
+  font-size: 20px;
+}
+.info p{
+  font-weight: 400;
+  line-height: 2;
+  font-size: 17px;
+  padding: 5px;
+}
+p.footlinks a {
+    display: inline-block;
+    padding: 8px 25px;
+    color: #777;
+    background: #222;
+    margin: 0 5px;
+    font-size: 12px;
+}
+p.footlinks a:hover {
+    color: #fff;
+    text-decoration: none;
+}

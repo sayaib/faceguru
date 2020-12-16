@@ -1,7 +1,7 @@
 var text = ["( ͡° ͜ʖ ͡°)╭∩╮", "( • )( • )ԅ(≖⌣≖ԅ)", "(‿!‿) ԅ(≖‿≖ԅ)","•́ε•̀٥","(͠≖ ͜ʖ͠≖)ε｀●)","( ㅅ )","͡° ͜ʖ ͡ –","ᕤ( ͡~ ͜ʖ ͡°)","( ͠° ͟ʖ ͡°)"];
 var counter = 0;
 var elem = document.getElementById("myspanid");
-var inst = setInterval(change, 1300);
+var inst = setInterval(change, 1100);
 
 function change() {
   elem.innerHTML = text[counter];

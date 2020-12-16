@@ -12,10 +12,11 @@ body {
 .copid {
   position: absolute;
   top: 0;
-  width: 200px;
-  height: 40px;
+  width: 150px;
+  height: 30px;
   background-color: red;
   text-align: center;
+  text-transform: capitalize;
   color: #fff;
   border: 1px solid;
   border-radius: 0 0 6px 6px;

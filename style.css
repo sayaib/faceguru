@@ -24,6 +24,7 @@ body {
 
 /* ****************************************** Header Section ****************************** */
 .logo {
+  cursor: pointer;
   text-align: center;
   font-weight: 600;
   font-size: 30px;
